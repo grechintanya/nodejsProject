@@ -1,0 +1,10 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,5 @@
+20230811	15:04:43	ded3fa2d-3acb-4b6c-9169-a0caed341b2c	ReferenceError: course is not defined
+20230812	13:58:01	4ac68a4c-a92b-4e08-ac0a-140b30269a09	Error: Cannot set headers after they are sent to the client
+20230812	14:00:53	9fed924f-3cce-4191-9c3a-9d088a2650c2	Error: Cannot set headers after they are sent to the client
+20230812	14:02:34	7f0d2118-aa13-46a7-bc0c-e3ee12664d4e	Error: Cannot set headers after they are sent to the client
+20230812	14:03:26	941fe2e5-8fda-4968-b951-9b3e6b955456	Error: Cannot set headers after they are sent to the client
