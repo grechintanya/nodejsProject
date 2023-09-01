@@ -3,3 +3,9 @@
 20230812	14:00:53	9fed924f-3cce-4191-9c3a-9d088a2650c2	Error: Cannot set headers after they are sent to the client
 20230812	14:02:34	7f0d2118-aa13-46a7-bc0c-e3ee12664d4e	Error: Cannot set headers after they are sent to the client
 20230812	14:03:26	941fe2e5-8fda-4968-b951-9b3e6b955456	Error: Cannot set headers after they are sent to the client
+20230814	13:15:08	952221db-dda8-46b4-b292-b8a85f4f478a	ReferenceError: token is not defined
+20230814	13:16:47	fbbba6b6-46f0-4000-9641-948c04737666	ReferenceError: token is not defined
+20230815	11:10:26	73e185ce-86fc-4f73-8f9c-258f91f38426	ReferenceError: whiteList is not defined
+20230816	18:17:11	ad5af953-4320-4706-aa44-4e890f81e774	TypeError: Assignment to constant variable.
+20230817	12:27:07	c0107ae2-0eac-42dd-ac88-6d636dbe002e	SyntaxError: Unexpected token c in JSON at position 141
+20230817	12:35:18	d43d1de1-47dd-4335-bae1-e9681302d31b	SyntaxError: Unexpected token n in JSON at position 138

@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const authors = require('../data/authors.json').authors;
+const getAllAuthors = require('../controllers/authorsController');
 
-router.route('/').get((req, res) => {
-    res.json(authors);
-})
+router.route('/').get(getAllAuthors)
 
 module.exports = router;

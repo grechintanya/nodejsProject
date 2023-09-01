@@ -1,18 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const { getCourses,
-    createCourse,
-    getCourseByID,
-    updateCourse,
-    deleteCourse } = require('../controllers/coursesController');
+const coursesController = require('../controllers/coursesController');
+const verifyID = require('../middleware/verifyId');
+const verifyJWT = require('../middleware/verifyJWT');
+
+router.param('id', verifyID);
 
 router.route('/')
-    .get(getCourses)
-    .post(createCourse);
+    .get(coursesController.getCourses)
+    .post(coursesController.createCourse);
+
+router.use(verifyJWT);
 
 router.route('/:id')
-    .get(getCourseByID)
-    .patch(updateCourse)
-    .delete(deleteCourse)
+    .get(coursesController.getCourseByID)
+    .patch(coursesController.updateCourse)
+    .delete(coursesController.deleteCourse)
 
 module.exports = router;
